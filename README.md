@@ -27,7 +27,7 @@ ghc Driver.hs -o Driver
 Which will compile the driver executable.
 
 For convenience, I use the C library functions printf() and scanf() to implement input() and output(). As such, the output assembly
-file must be linked against a 32-bit C library. This is usually accomplished with a command such as:
+file must be linked against a 32-bit C library. A 32-bit C library can usually be acquired with a command such as:
 
 sudo apt-get install gcc-multilib
 
